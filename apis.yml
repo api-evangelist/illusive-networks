@@ -1,8 +1,26 @@
 aid: illusive-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/illusive-networks.png
 name: Illusive Networks
-description: 'Illusive Networks is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Illusive Networks was a cybersecurity company specializing in deception
+  technology and identity threat detection and response (ITDR) — discovering and remediating
+  identity vulnerabilities and detecting attacker lateral movement across on-premises
+  and cloud environments using deceptive traps and agentless deception tactics. Backed
+  by Bessemer Venture Partners, Innovation Endeavors, TPG and others, the company was
+  acquired by Proofpoint in December 2022. Its technology now ships as Proofpoint Identity
+  Threat Defense (previously Illusive); the standalone illusive.com property redirects
+  to Proofpoint and the company no longer operates an independent developer, API, or
+  documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/illusive-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,33 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: proofpoint
+x-acquired-date: '2022-12'
+x-successor-product: Proofpoint Identity Threat Defense
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- Deception Technology
+- Identity Threat Detection and Response
+- Identity Security
+- Lateral Movement Detection
+- Acquired
+common:
+- type: Website
+  url: https://www.proofpoint.com/us/illusive-is-now-proofpoint
+  name: Illusive is now Proofpoint
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
