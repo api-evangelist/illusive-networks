@@ -32,7 +32,7 @@ x-status: acquired
 x-acquired-by: proofpoint
 x-acquired-date: '2022-12'
 x-successor-product: Proofpoint Identity Threat Defense
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
